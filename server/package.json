@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "excel4node": "^1.7.2",
+    "express": "^4.17.1",
+    "fs-extra": "^10.0.0",
+    "joi": "^17.4.2",
+    "mime-types": "^2.1.33",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.14",
+    "read-excel-file": "^5.2.20",
+    "sequelize": "^6.7.0",
+    "socket.io": "^4.3.1",
+    "socket.io-client": "^4.3.2",
+    "tedious": "^14.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-plugin-vue": "^7.19.1"
+  }
+}
